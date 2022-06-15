@@ -1,0 +1,149 @@
+
+
+  @media only screen and (width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+}
+
+body{
+    margin: 0;
+    background-color: #eee;
+    font-family: 'Lato', sans-serif, monospace;
+}
+main{
+    padding-top: 80px;
+}
+
+header > nav >a{
+    text-transform: uppercase;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: double orange 3px;
+    padding: 20px 30px;
+    align-items: center;
+    background-color: #eee;
+    width: 100%;
+    margin: 0;
+    position: fixed;
+}
+
+#header-img{
+    max-width: 300px;
+    margin-left: 20px;
+    height: 30px;
+    margin-top: 20px;
+}
+nav{
+    width: 50%;
+}
+#nav-bar {
+    display: flex;
+    column-gap: 30px;
+    list-style: none;
+    margin-right: 30px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+#main_title{
+    padding-top: 30px;
+    text-align: center;
+}
+#form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#email{
+    width: 20%;
+}
+#submit{
+    background-color: rgb(165, 108, 219);
+    padding: 8px 15px 8px 15px;
+    border: solid 2px rgb(180, 117, 0);
+    width: fit-content;
+    margin-top: 18px;
+}
+a{
+    text-decoration: none;
+}
+#container1{
+    padding-top: 15px;
+}
+
+.container1_child{
+    margin-left: 22.5%;
+}
+.container1_child >.logo_img >img{
+    width: 60px;
+    height: 60px;
+    padding: 15px 30px 15px 15px;
+}
+
+.logo_img{
+    display: flex;
+    align-items: center;
+}
+iframe{
+    padding-left: 30%;
+    padding-top: 50px;
+    border: none;
+}
+
+.nav-link{
+    color: black;
+}
+#container3{
+    display: flex;
+    justify-content: center;
+    column-gap: 30px;
+    flex-wrap: wrap;
+    margin-top: 50px;
+
+}
+
+.container3_child{
+    margin: 15px 15px 15px 15px;
+    text-align: center;
+    border: 2px solid black;
+    width: 320px;
+}
+
+.container3_child >h3{
+    background-color: rgb(255, 154, 103);
+    padding: 15px 25px 15px 25px;
+    margin-top: 0;
+}
+.price{
+    font-size: 30px;
+}
+.select{
+    background-color:rgb(165, 108, 219);
+    border: solid 2px rgb(180, 117, 0);
+    border-radius: 50%;
+    margin: 15px;
+    padding: 10px 30px;
+}
+footer{
+    margin-right: 145px;
+    margin-top: 40px;
+    display: block;
+    background-color: rgb(219, 215, 215);
+    padding-right: 40px;
+    padding-top: 20px;
+
+}
+footer >ul{
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    column-gap: 20px;
+}
+
+footer > p{
+    text-align: end;
+    color: #444;
+}
